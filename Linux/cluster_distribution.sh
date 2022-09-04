@@ -1,5 +1,5 @@
-# xsync集群分发脚本
 #!/bin/bash
+# xsync集群分发脚本
 #1. 判断参数个数
 if [ $# -lt 1 ]; then
     echo "No Args Input..."

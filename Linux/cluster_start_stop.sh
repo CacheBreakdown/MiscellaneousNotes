@@ -1,5 +1,5 @@
-# Hadoop 集群启动、停止脚本（HDFS，Yarn，Historyserver）(提供参数 start 或 stop)
 #!/bin/bash
+# Hadoop 集群启动、停止脚本（HDFS，Yarn，Historyserver）(提供参数 start 或 stop)
 if [ $# -lt 1 ]; then
     echo "No Args Input..."
     exit

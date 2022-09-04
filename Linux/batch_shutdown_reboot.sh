@@ -1,5 +1,5 @@
-# 一键关机、重启 (提供参数 shutdown 或 reboot)
 #!/bin/bash
+# 一键关机、重启 (提供参数 shutdown 或 reboot)
 if [ $# -lt 1 ]; then
     echo "No Args Input..."
     exit
